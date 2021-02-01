@@ -27,7 +27,7 @@ monitors:
 
   - id: porkeguess-trickey-solutions # unique identifier
     name: pokeguess.trickey.solutions
-    description: 'S Pokemon Guessing Game' # default=empty
+    description: 'A Pokemon Guessing Game' # default=empty
     url: 'https://pokeguess.trickey.solutions/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -43,7 +43,7 @@ monitors:
     
   - id: ziggyzapper-trickey-solutions # unique identifier
     name: ziggyzapper.trickey.solutions
-    description: 'Make your own monster' # default=empty
+    description: 'Babby Buttons Game - by alice for ziggy' # default=empty
     url: 'https://ziggyzapper.trickey.solutions/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -51,8 +51,32 @@ monitors:
     
   - id: namegame-trickey-solutions # unique identifier
     name: namegame.trickey.solutions
-    description: 'Make your own monster' # default=empty
+    description: 'Alices Super Awesome Name Generator' # default=empty
     url: 'https://namegame.trickey.solutions/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-shopper-mogul # unique identifier
+    name: www.shopper.mogul
+    description: 'Shopper Mogul Landing Page' # default=empty
+    url: 'https://www.shoppermogul.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: wbs-shopper-mogul # unique identifier
+    name: wbs.shopper.mogul
+    description: 'Warwick Business School Implementation' # default=empty
+    url: 'https://wbs.shoppermogul.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: mckinsey-shopper-mogul # unique identifier
+    name: mckinsey.shopper.mogul
+    description: 'Mckinsey Implementation' # default=empty
+    url: 'https://mckinsey.shoppermogul.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
