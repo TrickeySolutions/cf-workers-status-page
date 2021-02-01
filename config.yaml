@@ -28,7 +28,31 @@ monitors:
   - id: porkeguess-trickey-solutions # unique identifier
     name: pokeguess.trickey.solutions
     description: 'S Pokemon Guessing Game' # default=empty
-    url: 'https://poekguess.trickey.solutions/' # URL to fetch
+    url: 'https://pokeguess.trickey.solutions/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: monstermasher-trickey-solutions # unique identifier
+    name: monstermasher.trickey.solutions
+    description: 'Make your own monster' # default=empty
+    url: 'https://monstermasher.trickey.solutions/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: ziggyzapper-trickey-solutions # unique identifier
+    name: ziggyzapper.trickey.solutions
+    description: 'Make your own monster' # default=empty
+    url: 'https://ziggyzapper.trickey.solutions/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: namegame-trickey-solutions # unique identifier
+    name: namegame.trickey.solutions
+    description: 'Make your own monster' # default=empty
+    url: 'https://namegame.trickey.solutions/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
