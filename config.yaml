@@ -57,6 +57,14 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
+  - id: reviews-trickey-solutions # unique identifier
+    name: reviews.trickey.solutions
+    description: 'Experimantal reviews form for pokeguess game' # default=empty
+    url: 'https://reviews.trickey.solutions/reviews' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
   - id: www-shopper-mogul # unique identifier
     name: www.shopper.mogul
     description: 'Shopper Mogul Landing Page' # default=empty
