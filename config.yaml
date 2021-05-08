@@ -24,6 +24,14 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+    
+  - id: status.trickey-solutions # unique identifier
+    name: trickey.solutions
+    description: 'Trickey Solutions Satus Page. (this one!)' # default=empty
+    url: 'https://status.trickey.solutions/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
 
   - id: porkeguess-trickey-solutions # unique identifier
     name: pokeguess.trickey.solutions
